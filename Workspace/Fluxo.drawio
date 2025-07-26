@@ -1,0 +1,75 @@
+<mxfile host="65bd71144e">
+    <diagram id="sISe3HSnq5bOsyngmN6q" name="Page-1">
+        <mxGraphModel dx="1050" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="354.79998779296875" y="425.60003662109375" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="473" y="426"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Smartphone &amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;" style="swimlane;whiteSpace=wrap;html=1;gradientColor=#1D39FF;gradientDirection=north;fillColor=none;swimlaneFillColor=none;perimeterSpacing=0;rounded=1;swimlaneLine=1;shadow=0;glass=0;strokeColor=light-dark(#B8B8B8,#1D39FF);startSize=35;strokeWidth=5;" parent="1" vertex="1">
+                    <mxGeometry x="351" y="34" width="243.00044712611617" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="+ Numero: string&#xa;- Modelo: string&#xa;- IMEI: string&#xa;- Memoria: int" style="text;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry x="2.9990185546874955" y="38.00236642020097" width="117" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+ Ligar()&#xa;+ ReceberLigacao()&#xa;+ InstalarAplicativo(string) &lt;&lt;abstract&gt;&gt;" style="text;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry x="3.000447126116171" y="113.99950927734375" width="240" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=none;html=1;exitX=-0.015;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#FFFFFF,#1D39FF);strokeWidth=5;" parent="2" source="7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="126" y="242" as="sourcePoint"/>
+                        <mxPoint x="246" y="108" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Nokia &amp;lt;&amp;lt;sealed&amp;gt;&amp;gt; : Smarphone" style="swimlane;whiteSpace=wrap;html=1;gradientColor=#1D39FF;gradientDirection=north;fillColor=none;swimlaneFillColor=none;perimeterSpacing=0;rounded=1;swimlaneLine=1;shadow=0;glass=0;strokeColor=light-dark(#B8B8B8,#1D39FF);startSize=35;strokeWidth=5;" parent="1" vertex="1">
+                    <mxGeometry x="108" y="318" width="243.00044712611617" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="+ Numero: string&#xa;- Modelo: string&#xa;- IMEI: string&#xa;- Memoria: int" style="text;whiteSpace=wrap;" parent="14" vertex="1">
+                    <mxGeometry x="2.9990185546874955" y="38.00236642020097" width="117" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="+ Ligar()&#xa;+ ReceberLigacao()&#xa;+ InstalarAplicativo(string) &lt;&lt;abstract&gt;&gt;" style="text;whiteSpace=wrap;" parent="14" vertex="1">
+                    <mxGeometry x="3.000447126116171" y="113.99950927734375" width="240" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=none;html=1;exitX=-0.015;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#FFFFFF,#1D39FF);strokeWidth=5;" parent="14" source="15" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="126" y="242" as="sourcePoint"/>
+                        <mxPoint x="246" y="108" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Iphone &amp;lt;&amp;lt;sealed&amp;gt;&amp;gt; : Smartphone" style="swimlane;whiteSpace=wrap;html=1;gradientColor=#1D39FF;gradientDirection=north;fillColor=none;swimlaneFillColor=none;perimeterSpacing=0;rounded=1;swimlaneLine=1;shadow=0;glass=0;strokeColor=light-dark(#B8B8B8,#1D39FF);startSize=35;strokeWidth=5;" parent="1" vertex="1">
+                    <mxGeometry x="594" y="318" width="243.00044712611617" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="+ Numero: string&#xa;- Modelo: string&#xa;- IMEI: string&#xa;- Memoria: int" style="text;whiteSpace=wrap;" parent="19" vertex="1">
+                    <mxGeometry x="2.9990185546874955" y="38.00236642020097" width="117" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="+ Ligar()&#xa;+ ReceberLigacao()&#xa;+ InstalarAplicativo(string) &lt;&lt;abstract&gt;&gt;" style="text;whiteSpace=wrap;" parent="19" vertex="1">
+                    <mxGeometry x="3.000447126116171" y="113.99950927734375" width="240" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=none;html=1;exitX=-0.015;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#FFFFFF,#1D39FF);strokeWidth=5;" parent="19" source="20" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="126" y="242" as="sourcePoint"/>
+                        <mxPoint x="246" y="108" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1076" y="290" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="592" y="426" as="targetPoint"/>
+                        <mxPoint x="473" y="234" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="473" y="426"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

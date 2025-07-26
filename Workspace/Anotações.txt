@@ -1,0 +1,12 @@
+Extensão ".sln":
+".sln" (Solução Tradicional):
+É o formato padrão de arquivo de solução usado no Visual Studio e outras ferramentas .NET. 
+É um arquivo de texto que descreve a estrutura da solução, incluindo projetos e suas referências. 
+Pode se tornar complexo e difícil de gerenciar em soluções grandes ou com muitos projetos. 
+
+Extensão ".slnx":
+".slnx" (Solução Modernizada):
+É um formato baseado em XML, introduzido para melhorar a experiência de gerenciamento de soluções. 
+Oferece maior flexibilidade e desempenho, especialmente em soluções complexas. 
+É mais fácil de integrar com ferramentas e sistemas de controle de versão. 
+O .NET CLI oferece suporte nativo ao ".slnx", permitindo uma experiência mais integrada com o ecossistema .NET. 
